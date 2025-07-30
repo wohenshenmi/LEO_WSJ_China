@@ -1,4 +1,4 @@
-# _parallel_filter.py
+# PlanB_01_parallel_filter.py
 
 import sys
 import time
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # sys.argv[2] 是 keyword_file
     # sys.argv[3] 是 output_file
     if len(sys.argv) != 4:
-        print("用法: python _parallel_filter.py <source_csv_path> <keywords_json_path> <output_csv_path>")
+        print("用法: python PlanB_01_parallel_filter.py <source_csv_path> <keywords_json_path> <output_csv_path>")
         sys.exit(1)
 
     main(sys.argv[1], sys.argv[2], sys.argv[3])
