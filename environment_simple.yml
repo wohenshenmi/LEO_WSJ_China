@@ -1,0 +1,16 @@
+name: leo_wsj_china
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - spacy
+  - gensim
+  - flashtext
+  - tqdm
+  - psutil
+  - numpy
+  - pip
+  - pip:
+    - en-core-web-lg==3.8.0
