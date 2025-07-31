@@ -1,0 +1,7 @@
+pandas==2.3.1
+spacy==3.8.7
+gensim==4.3.3
+flashtext==2.7
+tqdm==4.67.1
+psutil==5.9.0
+numpy==1.26.4
